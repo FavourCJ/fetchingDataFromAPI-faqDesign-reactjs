@@ -1,0 +1,163 @@
+body{
+    background-color: #EAE6EE;
+    text-align: center;
+}
+
+.bg-card-container{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.bg-card-section{
+    background-color: #F8F0FF;
+    width: 50%;
+    height: 110vh;
+}
+
+.bg-container{
+    width: auto;
+}
+
+.bg{
+    width: 100%;
+}
+.card-container{
+    display: grid;
+    place-items: center;
+    margin-top: -40px;
+}
+
+.faq-card{
+    background-color: white;
+    width: 85%;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.sparkle{
+    width: 25px;
+    margin-right: 15px;
+}
+
+.faqs{
+    border-top: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.faqs-txt-btn-container{
+    display: flex;
+    width: 87%;
+    justify-content: space-between;
+}
+
+.fa-minus{
+    background-color: transparent;
+    border: none;
+    background-color: #333;
+    border-radius: 100%;
+    height: 20px;
+    color: white;
+    margin-top: 15px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-right: -40px;
+}
+
+.fa-plus{
+    background-color: transparent;
+    border: none;
+    background-color: #AF22F5;
+    border-radius: 100%;
+    height: 20px;
+    color: white;
+    margin-top: 15px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-right: -40px;
+}
+
+.faq-question{
+    font-weight: 600;
+}
+
+.faq-responds{
+    font-size: 12.5px;
+    color: rgb(148, 137, 148);
+}
+
+#hide{
+    display: none;
+}
+
+#show{
+    display: block;
+}  
+
+.view-reviews-btn-div{
+    text-align: start;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.view-reviews-btn{
+    background-color: #AF22F5;
+    color: white;
+    border: 1px solid #AF22F5;
+    height: 30px;
+    width: 150px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.view-reviews-btn:hover{
+    background-color: #301534;
+}
+
+/* Large Phones & Tablets */
+@media (min-width: 576px) and (max-width: 768px) {
+    .faq-container {
+      flex-direction: column;
+    }
+
+    .bg-card-section{
+        background-color: #F8F0FF;
+        width: 80%;
+    }
+
+    .faq-question{
+        font-size: 16px;
+    }
+
+    .faq-responds{
+        font-size: 14px;
+        padding-right: 20px;
+    }
+
+    .faq-card{
+        padding-right: 22px;
+    }
+  }
+
+  /* Mobile Phones */
+@media (max-width: 576px) {
+    .bg-card-section{
+        width: 90%;
+    }
+
+    .faq-card{
+        width: 90%;
+    }
+
+    .faq-responds{
+        font-size: 15px;
+        padding-right: 20px;
+    }
+  }
+
+  
+  
+ 
