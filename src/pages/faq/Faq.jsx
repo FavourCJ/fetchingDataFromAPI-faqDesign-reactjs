@@ -1,22 +1,24 @@
 import React, { useState } from 'react'
 import "./faq.css"
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
+import { useNavigate } from 'react-router-dom'
+import sparkle from "../../public/images/sparkle.png"
+import bg from "../../public/images/faq-bg.svg"
 function Faq() {
     const [toggleOne, settoggleOne] = useState(false)
     const [toggleTwo, settoggleTwo] = useState(false)
     const [toggleThree, settoggleThree] = useState(false)
-    const history = useHistory()
+    const navigate = useNavigate();
     return (
       <div className='faq-container'>
         <div className='bg-card-container'>
           <div className='bg-card-section'> 
           <div className='bg-container'>
-            <img src='./images/faq-bg.svg' className='bg'/>
+            <img src={bg} className='bg'/>
           </div>
           <div className='card-container' >
           <div className='faq-card'> 
          <h1>
-           <span><img src='./images/sparkle.png' className='sparkle'/></span>
+           <span><img src={sparkle} className='sparkle'/></span>
            FAQs
          </h1>
          <div className='faqs-container'>
@@ -67,10 +69,11 @@ function Faq() {
         </div>
           </div>
           <div className='view-reviews-btn-div'>
+            
           <button 
            className='view-reviews-btn'
            onClick={()=>{
-            history.push("/reviews")
+             navigate("/reviews")
            }}>View Reviews</button>
           </div>
 

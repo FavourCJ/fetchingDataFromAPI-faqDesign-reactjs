@@ -1,25 +1,15 @@
-import Faq from "./pages/faq/Faq";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FetchData from "./pages/fetchData/FetchData";
+import Faq from "./pages/faq/Faq";
 function App() {
   return (
-    <div className="App">
-       <Router>
-      <Switch>
-        <Route exact path= "/">
-        <Faq/>
-      </Route>
-
-      <Route exact path= "/reviews">
-        <FetchData/>
-      </Route>
-      </Switch>
-      </Router>
-    </div>
+   <>
+    <Routes>
+          <Route exact path="/" element={<Faq />} />
+          <Route exact path="/reviews" element={<FetchData />} />
+      </Routes>
+   </>
   );
 }
 
