@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/fetchingDataFromAPI-faqDesign-reactjs/static/css/main.1060541a.css",
-    "main.js": "/fetchingDataFromAPI-faqDesign-reactjs/static/js/main.8610d9cd.js",
+    "main.css": "/fetchingDataFromAPI-faqDesign-reactjs/static/css/main.b40095dc.css",
+    "main.js": "/fetchingDataFromAPI-faqDesign-reactjs/static/js/main.c7f6109b.js",
     "static/js/453.30c3f085.chunk.js": "/fetchingDataFromAPI-faqDesign-reactjs/static/js/453.30c3f085.chunk.js",
+    "static/media/user.png": "/fetchingDataFromAPI-faqDesign-reactjs/static/media/user.a6143582309785dca610.png",
+    "static/media/faq-bg.svg": "/fetchingDataFromAPI-faqDesign-reactjs/static/media/faq-bg.621478cf83f8150af60411d3765de0eb.svg",
     "index.html": "/fetchingDataFromAPI-faqDesign-reactjs/index.html",
-    "main.1060541a.css.map": "/fetchingDataFromAPI-faqDesign-reactjs/static/css/main.1060541a.css.map",
-    "main.8610d9cd.js.map": "/fetchingDataFromAPI-faqDesign-reactjs/static/js/main.8610d9cd.js.map",
+    "main.b40095dc.css.map": "/fetchingDataFromAPI-faqDesign-reactjs/static/css/main.b40095dc.css.map",
+    "main.c7f6109b.js.map": "/fetchingDataFromAPI-faqDesign-reactjs/static/js/main.c7f6109b.js.map",
     "453.30c3f085.chunk.js.map": "/fetchingDataFromAPI-faqDesign-reactjs/static/js/453.30c3f085.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1060541a.css",
-    "static/js/main.8610d9cd.js"
+    "static/css/main.b40095dc.css",
+    "static/js/main.c7f6109b.js"
   ]
 }
