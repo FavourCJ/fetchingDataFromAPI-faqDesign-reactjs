@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fetchingDataFromAPI-faqDesign-reactjs/static/css/main.1060541a.css",
+    "main.js": "/fetchingDataFromAPI-faqDesign-reactjs/static/js/main.8610d9cd.js",
+    "static/js/453.30c3f085.chunk.js": "/fetchingDataFromAPI-faqDesign-reactjs/static/js/453.30c3f085.chunk.js",
+    "index.html": "/fetchingDataFromAPI-faqDesign-reactjs/index.html",
+    "main.1060541a.css.map": "/fetchingDataFromAPI-faqDesign-reactjs/static/css/main.1060541a.css.map",
+    "main.8610d9cd.js.map": "/fetchingDataFromAPI-faqDesign-reactjs/static/js/main.8610d9cd.js.map",
+    "453.30c3f085.chunk.js.map": "/fetchingDataFromAPI-faqDesign-reactjs/static/js/453.30c3f085.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1060541a.css",
+    "static/js/main.8610d9cd.js"
+  ]
+}
