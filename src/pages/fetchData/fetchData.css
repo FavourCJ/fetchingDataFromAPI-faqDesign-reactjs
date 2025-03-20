@@ -3,8 +3,8 @@ body{
   }
   
   .reviews-container {
-    display: grid;
     place-items: center;
+    width: 100%;
    
   }
   
@@ -112,35 +112,32 @@ body{
     } 
 
     /* Large Phones & Tablets */
-@media (min-width: 576px) and (max-width: 767px) {
-    body{
-        width: 40%;
-        text-align: center;
-    }
-
+@media (min-width: 576px) and (max-width: 700px) {
     .header-div{
       display: grid;
       place-items: center;
-      width: 90%;
+      width: 100%;
     }
 
     .review-header {
-      font-size: 13px;
+      font-size: 22px;
     }
 
     .card-contianer{
-        display: block;
-        width: 80%;
+        width: 100%;
+        display: grid;
+        place-items: center;
       }
 
       .card{
-        width: 170px;
+        width: 250px;
         height: auto;
-        font-size: 13px;
-        margin-bottom: 20px;
+        font-size: 18px;
+        margin-bottom: 23px;
       }
 
-      .card-btn{
+      .card-btn,
+      .card-btn-two{
         width: 150px;
         margin-top: 20px;
         height: 30px;
@@ -148,16 +145,44 @@ body{
       }
 
       .see-more-div{
-        width: 60%;
+        place-items: center;
       }
   }
-
-  /* Mobile Phones */
-@media (max-width: 576px) {
-    body{
-        text-align: center;
-    }
+  
+    /* Large Phones & Tablets */
+@media (min-width: 800px) and (max-width: 1024px) {
+  .header-div{
+    place-items: center;
+    width: 100%;
   }
+
+  .review-header {
+    font-size: 28px;
+  }
+
+  .card-contianer{
+      width: 100%;
+      place-items: center;
+    }
+
+    .card{
+      width: 300px;
+      height: auto;
+      font-size: 25px;
+    }
+
+    .card-btn,
+    .card-btn-two{
+      margin-top: 20px;
+      height: 45px;
+      font-size: 20px;
+    }
+
+    .see-more-div{
+      place-items: center;
+    }
+}
+
 
   
  
